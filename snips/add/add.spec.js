@@ -1,3 +1,5 @@
+// @flow
+
 import { add } from "./add"
 
 it("should pass", () => {
