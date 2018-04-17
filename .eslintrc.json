@@ -1,5 +1,6 @@
 {
   "extends": ["airbnb", "prettier"],
+  "plugins": ["flowtype"],
   "parser": "babel-eslint",
   "rules": {
     "semi": ["error", "never"],
@@ -11,5 +12,8 @@
     "jest": true,
     "node": true,
     "browser": true
+  },
+  "globals": {
+    "$Keys": true
   }
 }
